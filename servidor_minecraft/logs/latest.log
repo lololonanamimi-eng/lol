@@ -1,0 +1,20 @@
+[29Jul2026 04:53:13.135] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[29Jul2026 04:53:13.144] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Ubuntu; OS Linux arch amd64 version 6.8.0-1052-azure
+[29Jul2026 04:53:18.222] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29Jul2026 04:53:18.363] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/lol/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[29Jul2026 04:53:19.770] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lol/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[29Jul2026 04:53:19.776] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lol/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[29Jul2026 04:53:19.784] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lol/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[29Jul2026 04:53:19.791] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/lol/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[29Jul2026 04:53:20.702] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 7 dependencies adding them to mods collection
+[29Jul2026 04:53:37.976] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29Jul2026 04:53:38.199] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[29Jul2026 04:53:39.536] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 68 options available, 0 override(s) found
+[29Jul2026 04:53:40.279] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/block/BlockRenderDispatcher for invalid dist DEDICATED_SERVER
+[29Jul2026 04:53:40.285] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/block/BlockRenderDispatcher (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/block/BlockRenderDispatcher for invalid dist DEDICATED_SERVER)
+[29Jul2026 04:53:40.288] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.block.BlockRenderDispatcher was not found vanillabackport.mixins.json:access.BlockRenderDispatcherAccessor
+[29Jul2026 04:53:42.531] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/moonlight/api/set/leaves/LeavesType (java.lang.ClassNotFoundException: net.mehvahdjukaar.moonlight.api.set.leaves.LeavesType)
+[29Jul2026 04:53:42.554] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/stone_zone/api/set/stone/StoneType (java.lang.ClassNotFoundException: net.mehvahdjukaar.stone_zone.api.set.stone.StoneType)
+[29Jul2026 04:53:42.574] [main/WARN] [mixin/]: Error loading class: net/mehvahdjukaar/moonlight/api/set/wood/WoodType (java.lang.ClassNotFoundException: net.mehvahdjukaar.moonlight.api.set.wood.WoodType)
+[29Jul2026 04:53:42.580] [main/WARN] [mixin/]: Error loading class: jeresources/api/util/BiomeHelper (java.lang.ClassNotFoundException: jeresources.api.util.BiomeHelper)
+[29Jul2026 04:53:42.597] [main/WARN] [mixin/]: Error loading class: yalter/mousetweaks/Main (java.lang.ClassNotFoundException: yalter.mousetweaks.Main)
